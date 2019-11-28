@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://vikingocharters.com/$1 [L,R=301]
+RewriteRule ^kevin/?$ info.php
+RewriteRule ^boats/?$ boats.php
+RewriteRule ^tours/?$ tours.php
+RewriteRule ^fishing-schedule/?$ fishing-schedule.php
+RewriteRule ^gallery/?$ gallery.php
+RewriteRule ^contact/?$ contact-us.php
+RewriteRule ^tour-animas/?$ tour-animas.php
+RewriteRule ^tour-arcos/?$ tour-arcos.php
+RewriteRule ^tour-marietas/?$ tour-marietas.php
+RewriteRule ^tour-quimixto/?$ tour-quimixto.php
+RewriteRule ^tour-sportfishing/?$ tour-sportfishing.php
+RewriteRule ^best-things-to-do-in-puerto-vallarta/?$ best-things-to-do-in-puerto-vallarta.php
+RewriteRule ^tour-yelapa/?$ tour-yelapa.php
+RewriteRule ^sent/?$ messagesent.php
+
+Options -Indexes

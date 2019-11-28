@@ -1,0 +1,329 @@
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: url(../img/sailfish-vikingo-fishing.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.hero_middle{
+	    /* Sizing */
+		width: 100vw;
+		height: 100vh;
+		
+		/* Flexbox stuff */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		/* Text styles */
+		text-align: center;
+		color: white;
+		
+		/* Background styles */
+		background-image: url(../img/los-arcos.jpg);
+		background-size: cover;
+		background-position: center center;
+}
+
+.hero_middle .btn{
+	    /* Positioning and sizing */
+		display: block;
+		width: 200px;
+		
+		/* Padding and margins */
+		padding: 1em;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		
+		/* Text styles */
+		color: white;
+		text-decoration: none;
+		font-size: 1.5em;
+		
+		/* Background styles */
+		background-color: rgba(58, 92, 185, 0.8);
+	
+}
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Background styles */
+    background-color: rgba(58, 92, 185, 0.8);
+
+
+}
+
+/*
+	Using Bootstrap
+*/
+
+.page_title {
+	font-weight: 300;
+	line-height: 120%;
+	margin: 20px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-transform: uppercase;
+}
+
+/* PEN STYLES ========== */
+.row {
+	margin: 0;
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+	background-color:rgba(58, 92, 185, 0.8); 
+	mix-blend-mode: hard-light;
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 20px;
+	width: 100%;
+}
+.test_link {
+	border: 2px solid #fff;
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	padding: inherit;
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url(../img/los-arcos.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url(../img/animas.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url(../img/quimixto.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url(../img/yelapa.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-05 .inner {
+	background-image: url(../img/marietas-island.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-06 .inner {
+	background-image: url(../img/vikingo-fishing.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.col-xs-6 {
+    width:-webkit-fill-available !important;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.col-text {
+	height:20em;
+  }
+  .grid-flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	flex-direction: row; 
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+  }
+  .col {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+  }
+  .col-left {
+	-webkit-box-ordinal-group:-1;
+	-webkit-order: -1;
+	-ms-flex-order: -1;
+	order: -1;
+  }
+  .col-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .Aligner-item {
+	width: 60%;
+  }
+  .col-image {
+	background-size: cover;
+	background-position:center center;
+  }
+  
+  @media (max-width: 640px) {
+	.grid-flex {
+	  height: 40em;
+	  display: -webkit-flex;
+	  -webkit-flex-direction: column;
+	  flex-direction: column; 
+	 }
+	.col {
+	  order:vertical;
+	}
+	.col-left {
+	  -webkit-box-ordinal-group:0;
+	  -webkit-order: 0;
+	  -ms-flex-order: 0;
+	  order: 0;
+	}
+	.col-text div p {
+	  padding: 1em;
+	}
+	.Aligner-item {
+	  width: 90%;
+	}
+	}
+
+	.jumbotron .container {
+		max-width: 100%;
+		padding-top: 80px;
+		text-align: center;
+	}
+	
+	

@@ -1,0 +1,5 @@
+User-agent:*
+
+Disallow:
+
+Sitemap:http://vikingocharters.com/sitemap.xml
